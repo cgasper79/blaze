@@ -23,7 +23,7 @@
     room: window.location.pathname.split('/').reverse()[0]
   };
   let canvas, isSelectorEnabled = false, files = [];
-  let backend = 'Waiting for other devices to join same room';
+  let backend = 'Esperando a otros dispositivos que entren en la misma sala';
   let percentage = null;
 
   /**
@@ -454,7 +454,7 @@
     name="fab"
     icon="icon-add"
     disabled={!isSelectorEnabled}
-    text="Add File"
+    text="Añadir archivos"
     on:click={() => document.getElementById('inpFiles').click()}
   />
 
