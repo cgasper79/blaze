@@ -54,7 +54,7 @@
 <div id="app">
 
   <header>
-    <h1 class="title">Recent Rooms</h1>
+    <h1 class="title">Salas recientes</h1>
   </header>
 
   <main>
@@ -80,7 +80,7 @@
       </ul>
       <Fab
         icon="icon-add"
-        text="New Room"
+        text="Nueva sala"
         on:click={() => newRoomModal.isOpen = true}
       />
     {:else}
@@ -99,13 +99,13 @@
       type="text"
       maxlength="10"
       required
-      placeholder="Room name"
+      placeholder="Nombre de Sala"
       pattern="[A-Za-z0-9]+"
       bind:value={newRoomModal.roomName}
       style="margin-top: 0"
     >
     <button type="submit" class="wide">
-      Join Room
+      Entrar en sala
     </button>
   </form>
 </Modal>

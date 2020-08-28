@@ -83,7 +83,7 @@
       fileTransfer(evt.data)
       .then(resetState)
       .catch(err => {
-        console.log('Error in transferring the file', err);
+        console.log('Error en transferencia de archivo', err);
       });
     });
 
@@ -91,7 +91,7 @@
      * Error from the worker
      */
     worker.addEventListener('error', err => {
-      console.log('Error in compressing the files', err);
+      console.log('Error en compresión de archivo', err);
     });
   }
 

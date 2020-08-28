@@ -24,13 +24,13 @@
     <input
       required
       type="text"
-      placeholder="Cool nickname"
+      placeholder="nickname guay"
       maxlength="10"
-      aria-label="Enter a nickname"
+      aria-label="Pon tu nickname"
       bind:value={username}
     >
     <button type="submit" class="wide">
-      Continue
+      Continuar
     </button>
   </form>
 
